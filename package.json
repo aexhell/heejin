@@ -1,0 +1,30 @@
+{
+  "name": "typescript-bot",
+  "version": "1.0.0",
+  "description": "A bot coded in TypeScript with D.js",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "nodemon -e ts --exec \"npm run build && npm run start\""
+  },
+  "keywords": [
+    "discord.js",
+    "typescript"
+  ],
+  "author": "Aexhell",
+  "license": "MIT",
+  "dependencies": {
+    "consola": "^2.15.3",
+    "discord.js": "^12.5.3",
+    "dotenv": "^10.0.0",
+    "fs": "0.0.1-security",
+    "glob": "^7.1.7",
+    "nodemon": "^2.0.12",
+    "typescript": "^4.3.5"
+  },
+  "devDependencies": {
+    "@types/glob": "^7.1.4",
+    "@types/node": "^16.3.2"
+  }
+}
